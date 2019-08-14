@@ -3,7 +3,7 @@ import React from 'react';
 const Foot = props => {
   return (
     <div
-      copyrights="&copy; 2017 Zhouyang Lian"
+      copyrights="&copy; 2019 Zhouyang Lian"
       style={{ backgroundColor: "#2266bb" }}
       links={
         <ul>

@@ -3,29 +3,29 @@ import React, { Component } from 'react';
 import { formatMoney } from '../../utils/formatMoney';
 
 import {
-  FormWrapper,
-  FormColumn,
-  Input,
-  Row,
+    FormWrapper,
+    FormColumn,
+    Input,
+    Row,
 } from './styled';
 
 class CalculatorForm extends Component {
-  render() {
-    const {
-      handleCurrentAge,
-      handleRetirementAge,
-      handleLifespanAge,
-      startingSavings,
-      investmentReturnRate,
-      retireAge,
-      retireSpending,
-      salary,
-      salaryIncrease,
-      savingsRate,
-    } = this.props;
+    render() {
+        const {
+            handleCurrentAge,
+            handleRetirementAge,
+            handleLifespanAge,
+            startingSavings,
+            investmentReturnRate,
+            retireAge,
+            retireSpending,
+            salary,
+            salaryIncrease,
+            savingsRate,
+        } = this.props;
 
-    return (
-      <FormWrapper>
+        return (
+            <FormWrapper>
         <FormColumn>
           <Row>
             <span>Net Income</span>
@@ -61,8 +61,8 @@ class CalculatorForm extends Component {
           </Row>
         </FormColumn>
       </FormWrapper>
-    );
-  }
+        );
+    }
 }
 
 export default CalculatorForm;

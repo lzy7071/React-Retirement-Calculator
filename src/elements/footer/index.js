@@ -3,18 +3,18 @@ import React from 'react';
 const Foot = props => {
   return (
     <div
-      copyrights="&copy; 2017 Gabriel Rowe"
+      copyrights="&copy; 2017 Zhouyang Lian"
       style={{ backgroundColor: "#2266bb" }}
       links={
         <ul>
           <p className="white-text"> More from me! </p>
-          <a href="http://linkedin.com/in/gabrielrowe">
+          <a href="http://linkedin.com/in/zlian">
             <i alt="LinkedIn Logo" className="fa fa-linkedin-square fa-2x icon" aria-hidden="true" ></i>
           </a>
-          <a href="https://github.com/gabrielwr">
+          <a href="https://github.com/lzy7071">
             <i alt="GitHub Logo" className="fa fa-github fa-2x space-button icon" aria-hidden="true" ></i>
           </a>
-          <a href="https://gabrielwr.github.io/">
+          <a href="https://familian.life/">
             <i alt="Portfolio Site" className="fa fa-file-pdf-o fa-2x space-button icon" aria-hidden="true" ></i>
           </a>
         </ul>

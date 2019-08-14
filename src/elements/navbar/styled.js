@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 export const Navbar = styled.nav`
   background-image: linear-gradient(90deg, #3023AE 0%, #53A0FD 77%, #59A5F2 88%, #82C5AB 95%);
@@ -21,7 +21,7 @@ export const NavbarLink = styled.li`
   display: block;
 `;
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(NavLink)`
   color: white;
   font-size: 24px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.50);

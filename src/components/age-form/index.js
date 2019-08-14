@@ -40,7 +40,7 @@ const mapStateToProps = (state) => {
   };
 };
 
-AgeForm.proptypes = {
+AgeForm.propTypes = {
   lifeExpectancy: Proptypes.number,
   startingAge: Proptypes.number,
 };

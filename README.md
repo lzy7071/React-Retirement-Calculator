@@ -1,5 +1,5 @@
-[![GitHub issues](https://img.shields.io/github/issues/gabrielwr/React-Retirement-Calculator.svg)](https://github.com/gabrielwr/React-Retirement-Calculator/issues)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/gabrielwr/React-Retirement-Calculator.svg)](https://github.com/gabrielwr/React-Retirement-Calculator/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/lzy7071/React-Retirement-Calculator.svg)](https://github.com/lzy7071/React-Retirement-Calculator/issues)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/lzy7071/React-Retirement-Calculator.svg)](https://github.com/lzy7071/React-Retirement-Calculator/pulls?q=is%3Apr+is%3Aclosed)
 
 # React Retirement Calculator
 
@@ -41,5 +41,5 @@ To start the server and have webpack build your bundle.js:
 $ npm start
 ```
 ## License
-MIT (c) Gabriel Rowe
+MIT (c) Zhouyang Lian
 

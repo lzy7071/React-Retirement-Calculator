@@ -15,11 +15,13 @@ import './index.css';
 render(
   <Provider store={ store }>
     <BrowserRouter>
-      <div>
+      <App>
+        <Switch>
 	        <Route exact path="/" component={ App }/>
 	        <Route exact path="/calculator" component={ CalculatorContainer } />
 	        <Route exact path='/*' component={ NotFound } />
-      </div>
+        </Switch>
+      </App>
     </BrowserRouter>
   </Provider>,
   document.getElementById('root')
